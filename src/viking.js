@@ -87,7 +87,7 @@ class War {
     return result;
   }
   showStatus() {
-    if (this.vikingArmy.length === 1 && this.saxonArmy.length === 1) {
+    if (this.vikingArmy.length >= 1 && this.saxonArmy.length >= 1) {
       return "Vikings and Saxons are still in the thick of battle.";
     }
     if (this.saxonArmy.length === 0) {
